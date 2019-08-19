@@ -1,0 +1,30 @@
+p {
+    color: magenta;
+    font-size: 48px;
+}
+
+div p {
+    color: yellow;
+    font-size: 48px;
+}
+
+#hovers h1 {
+    text-align: center;
+}
+
+#hovers {
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    opacity: 0.2;
+}
+
+#hovers:hover {
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    opacity: 1;
+}
